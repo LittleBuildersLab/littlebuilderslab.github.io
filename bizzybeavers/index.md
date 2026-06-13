@@ -15,7 +15,7 @@ Data lives on your device and in **your own iCloud** — there's no Bizzy Beaver
 
 ## Try it
 
-Coming soon to TestFlight. [Email us](mailto:hello@littlebuilderslab.com) to join the beta.
+Coming soon to TestFlight. [Email us](mailto:littlebuilders.bizzybeavers@gmail.com) to join the beta.
 
 ## Sibling apps
 

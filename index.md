@@ -13,4 +13,4 @@ We're not a company. We're a parent + kid pair who like to build things together
 
 ## Contact
 
-[hello@littlebuilderslab.com](mailto:hello@littlebuilderslab.com) · [GitHub](https://github.com/LittleBuildersLab)
+[littlebuilders.bizzybeavers@gmail.com](mailto:littlebuilders.bizzybeavers@gmail.com) · [GitHub](https://github.com/LittleBuildersLab)

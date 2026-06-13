@@ -51,4 +51,4 @@ If we update this policy in a way that materially changes how data is handled, w
 
 ## Contact
 
-Questions or concerns: [hello@littlebuilderslab.com](mailto:hello@littlebuilderslab.com)
+Questions or concerns: [littlebuilders.bizzybeavers@gmail.com](mailto:littlebuilders.bizzybeavers@gmail.com)

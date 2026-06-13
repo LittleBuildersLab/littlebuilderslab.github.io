@@ -53,7 +53,7 @@ Parent mode → Settings → **Reset all data**. Wipes children, tasks, rewards,
 
 Send us a note. Include your iOS version, your device model, and a short description of what's going wrong — we'll get back to you within a couple days.
 
-[hello@littlebuilderslab.com](mailto:hello@littlebuilderslab.com)
+[littlebuilders.bizzybeavers@gmail.com](mailto:littlebuilders.bizzybeavers@gmail.com)
 
 ## Other links
 
