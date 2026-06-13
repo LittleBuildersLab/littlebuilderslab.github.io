@@ -1,0 +1,11 @@
+title: LittleBuildersLab
+description: A tiny indie app studio. Built alongside a 7-year-old co-builder.
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - bizzybeavers
