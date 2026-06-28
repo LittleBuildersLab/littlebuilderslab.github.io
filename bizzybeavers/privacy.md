@@ -1,54 +1,103 @@
 # Privacy Policy — Bizzy Beavers
 
-**Last updated:** 2026-06-12
+**Effective date:** June 28, 2026
+**App:** Bizzy Beavers, by LittleBuildersLab
 
-LittleBuildersLab makes Bizzy Beavers. This page explains exactly what data the app touches, where it lives, and what we do and do not do with it. We've kept it short so parents can actually read it.
+## The short version
 
-## TL;DR
+Bizzy Beavers does **not collect your data**. Everything you enter stays on your
+device and, if you use iCloud, in your own private iCloud account — which we
+cannot access. We don't track you, show ads, or share anything with third
+parties.
 
-- We **do not** run a server. Your data stays on your device and in **your own iCloud**.
-- We **do not** see, sell, share, or analyze your family's data. We literally can't.
-- We **do not** use third-party analytics, advertising, or tracking SDKs.
-- We **do not** collect email addresses. Sign in with Apple's "Hide my email" works because we never ask for your email.
+## Who we are
 
-## What the app stores
+Bizzy Beavers is a family chores-and-rewards app published by LittleBuildersLab.
+It helps parents set tasks for their children, approve completed work, award
+points, and let kids redeem points for rewards.
 
-When you use Bizzy Beavers, the following data is created and stored:
+## What information the app handles
 
-- **Apple user identifier** — a stable per-user-per-developer ID Apple gives us when you sign in. We use it to scope your data to your account. We do not learn anything else about you from it.
-- **Your display name** — only on first Sign in with Apple, and only if you choose to share it. Used to greet you in Settings.
-- **Children's profiles** — names (or nicknames) and avatar emojis you set up.
-- **Tasks, rewards, behavior types, and history** — everything you create inside the app.
-- **Photos** — only if you attach a photo to a task as proof. Photos stay on your device and in your iCloud private database; they are not uploaded anywhere else.
-- **A parent PIN** — stored as a salted SHA-256 hash in your device's Keychain (never the plain digits).
+You (the parent) enter information to run the app, including:
 
-## Where it lives
+- **Child profiles** — name, optional age, and an avatar you pick.
+- **Tasks, rewards, and behaviors** — titles, descriptions, point values, and
+  any notes you add.
+- **History** — completed tasks, redemptions, and behavior incidents.
+- **Optional task photos** — if you ask a child to attach a photo as proof a
+  task was done.
+- **A parent PIN** — stored as a one-way hash in the device Keychain.
 
-- **On your iPhone or iPad** — the SwiftData local store.
-- **In your iCloud private database** — only visible to you, on your devices, signed in to your Apple ID. Apple provides the storage; we just declare the data shape.
+## Where that information lives
 
-We do not have a server. There is no LittleBuildersLab database with your data in it.
+- **On your device**, in the app's local storage.
+- **In your private iCloud**, if you are signed in to iCloud. Bizzy Beavers uses
+  Apple's CloudKit **private database**, which keeps your data in your own
+  iCloud account and syncs it across your iPhone and iPad. **We have no access
+  to your iCloud data.** Its handling is governed by
+  [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
-## What we collect about you on our end
+We do **not** transmit your information to LittleBuildersLab or to any other
+server, because the app has no backend.
 
-Nothing. We don't run analytics, we don't have a server endpoint the app talks to, and we don't get any reports from Apple about who's using the app beyond aggregate App Store / TestFlight metrics that don't identify you.
+## What we do not do
+
+- We do **not** collect, sell, rent, or share your personal information.
+- This version of Bizzy Beavers does **not** use analytics or tracking, and shows no ads.
+- We do **not** include third-party SDKs that collect data.
+- We do **not** ask you to create an account with us or sign in with Apple.
+
+## Photos
+
+If you use the optional task-photo feature, photos are stored on your device and
+in your private iCloud only. They are never uploaded to us and never shared.
+
+## Notifications
+
+Bizzy Beavers can send notifications to keep your family informed of activity —
+for example, when a child submits a task or a parent approves one. Today these
+are delivered as **on-device local notifications**. Future versions may also
+deliver notifications across your devices using Apple's Push Notification
+service (APNs) and iCloud. Any notification we send contains only app activity
+(such as a task title) and is never used for advertising or tracking. You can
+turn notifications on or off at any time in **iOS Settings → Notifications →
+Bizzy Beavers**.
 
 ## Children's privacy
 
-Bizzy Beavers is designed for parents to use **with** their children. A parent creates the account, sets up the children's profiles, and decides what data goes in. Kids don't sign in independently. Parents control all data and can export or delete it anytime.
+Bizzy Beavers is designed to be set up and operated by a **parent or guardian**.
+Information about children is entered by the parent and stays in the parent's
+device and private iCloud; we never receive it. The app contains no advertising,
+no behavioral tracking, and no in-app purchases directed at children. Our
+practices are aligned with the Children's Online Privacy Protection Act (COPPA):
+because we collect no personal information from anyone, we collect none from
+children.
 
-We do not knowingly collect personal information from children separately from their parent's account.
+## Your control over your data
 
-## Your rights and choices
+You are always in control:
 
-- **Export your data:** Settings → Backup → Export to JSON. You get a file you can keep, share, or import elsewhere later.
-- **Sign out:** Settings → Sign out. Removes your account identity from this device. Your iCloud data stays intact until you delete it from iCloud or sign back in.
-- **Delete your data:** Uninstall the app to remove local data. To remove the iCloud copy, open iOS Settings → Apple ID → iCloud → Manage Account Storage → Bizzy Beavers → Delete Data.
+- **Export** a full backup at any time from **Settings → Backup → Export
+  backup** (a JSON file you own).
+- **Delete everything** from **Settings → Reset → Wipe all data**. Because data
+  syncs through iCloud, wiping also removes it from other devices signed in to
+  the same iCloud account.
+- **Delete the app** to remove its local data from a device. To remove iCloud
+  copies, use Wipe all data first, or manage app data in **iOS Settings →
+  [your name] → iCloud**.
 
-## Changes
+## Security
 
-If we update this policy in a way that materially changes how data is handled, we'll post a new "Last updated" date and call out what changed.
+Your data is protected by your device's security and, where used, by Apple's
+iCloud security. The parent PIN is stored only as a salted one-way hash in the
+device Keychain — never in plain text and never transmitted.
+
+## Changes to this policy
+
+If we change this policy, we will update the effective date above and post the
+new version at the same URL. Material changes will be reflected in an app update.
 
 ## Contact
 
-Questions or concerns: [littlebuilders.bizzybeavers@gmail.com](mailto:littlebuilders.bizzybeavers@gmail.com)
+Questions about privacy? Email
+[littlebuilders.bizzybeavers@gmail.com](mailto:littlebuilders.bizzybeavers@gmail.com).
