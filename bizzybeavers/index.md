@@ -9,7 +9,7 @@ Bizzy Beavers helps families turn everyday chores into something kids actually l
 - **Behavior tracking** with a kind, growth-minded approach
 - **Two children per parent account**, kid mode is PIN-free, parent mode is gated by a PIN
 
-Data lives on your device and in **your own iCloud** — there's no Bizzy Beavers server, and we can't see any of it.
+Data lives on your device and in **your own iCloud** — Bizzy Beavers has no backend of its own, and we can't see your data.
 
 ---
 

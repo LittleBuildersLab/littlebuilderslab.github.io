@@ -6,48 +6,56 @@ Need help with Bizzy Beavers? You're in the right place.
 
 ### How do I add my child?
 
-Open **Parent mode** → tap **Settings** → **Manage children** → **Add a child**. Give them a name and pick an avatar emoji. You can add up to 2 children per account.
+Open **Parent mode** → tap **Settings** (top-right) → **Manage children** → **Add a child**. Give them a name and pick an avatar emoji. You can add up to 2 children per account. Switch into a child's kid-friendly view by tapping their avatar on the home picker.
 
-### Daily tasks aren't showing up today
+### How do recurring tasks work?
 
-Bizzy Beavers creates today's instance of every daily task automatically. If you don't see one, try:
+Tasks are **templates** that project onto a calendar — there are no pre-spawned rows, so today's view is always live. When you create a task you pick a recurrence:
 
-- Make sure the task is set to **Daily** recurrence (Parent mode → Tasks → edit the task).
-- Close and reopen the app — the auto-create runs when you open the task list.
-- If the task already has an "Anytime" instance (no due date), that one will appear in the **Anytime** section instead of **Today**. Both work.
+- **Once** — the chosen day only.
+- **Daily** — every day from the start date onward.
+- **Weekly (specific days)** — the weekdays you select (e.g. Mon/Wed/Fri).
+- **Weekly (N times)** — "Practice piano 3× this week." Shows every day with an `(N/M wk)` progress badge; dims once the target is hit, then resets next calendar week.
+- **Anytime (bonus)** — a bonus task that appears only on today's view.
 
 ### My child doesn't see a task I added
 
-Tasks need a **child assigned**. When you create a task, pick the child from the Child Switcher chips at the top of the task list. Tasks assigned to a different child will not show up in your child's view.
+Tasks must be **assigned to a child**. When you create a task, the **Child Switcher chips** at the top of the parent task list decide which child it belongs to. Also check the template's **start date** isn't in the future and that it wasn't stopped (end date in the past). Anytime tasks only appear on today's view.
+
+### Skip vs. Stop vs. Delete a task
+
+- **Skip today** (swipe → Skip today) hides the row for one day; it's back tomorrow. Swipe again to undo.
+- **Stop from today** (Edit task → Stop from today) ends the template so it no longer appears today or later — past days keep their history. Resume by clearing the end date.
+- **Delete entirely** (Edit task → Delete entirely) removes the template and its completions. Points already earned are **not** docked.
 
 ### How do points work?
 
-- Kids earn points by completing tasks you approve.
-- Behaviors deduct points (with a configurable per-day cap so things stay kind).
-- Kids spend points on rewards from the catalog you set up.
+- Kids **earn** points when you approve a task they completed.
+- Kids **spend** points on rewards from the catalog you set up.
+- Behaviors can **deduct** points, with a per-day cap so it stays kind.
 - Balance never goes below zero; lifetime points always count up.
 
 ### My data didn't sync to my other device
 
 Bizzy Beavers syncs through your iCloud private database. Check:
 
-- Both devices are signed into the same Apple ID.
-- iCloud is enabled in iOS Settings → Apple ID → iCloud → Show All → Bizzy Beavers (toggled on).
-- You signed into Bizzy Beavers with Sign in with Apple on both devices.
+- Both devices are signed into the **same Apple ID**.
+- iCloud is enabled in iOS Settings → Apple ID → iCloud → Show All → **Bizzy Beavers** (toggled on).
 
-First sync after install can take a minute. After that, it's usually near-real-time.
+First sync after install can take a minute; after that it's near real-time. If a device stays behind, force-quit the lagging app and reopen it to nudge the sync.
 
 ### I forgot my parent PIN
 
-On the PIN entry screen, tap **Forgot PIN?** → authenticate with Face ID, Touch ID, or your device passcode. You can then set a new PIN.
+On the PIN screen, if **Face ID / Touch ID** is set up, tap **Unlock with Face ID / Touch ID** (it also tries automatically when you open parent mode). Once you're in, set a fresh PIN from **Settings → Change parent PIN**. If you don't have biometrics enabled and can't recall your PIN, email us and we'll help you recover access.
 
-### How do I back up my data?
+### How do I back up or restore my data?
 
-Settings → **Backup** → **Export to JSON**. You'll get a file you can share, email to yourself, or save to Files. (Restore from JSON is on the roadmap — for now, the export is your safety net.)
+- **Back up:** Settings → **Backup → Export backup**. You get a single JSON file (children, tasks, rewards, behaviors, and history) to save or share. Photos and your PIN are not included.
+- **Restore:** Settings → **Backup → Import backup** → pick the file. Import **merges** — items with matching IDs are updated, new items are added, and nothing existing is deleted. For an exact restore, Wipe all data first, then import.
 
 ### I want to start over
 
-Parent mode → Settings → **Reset all data**. Wipes children, tasks, rewards, and history on this device. iCloud copies sync the wipe to your other devices.
+Parent mode → Settings → **Reset → Wipe all data** (type RESET to confirm). Wipes children, tasks, rewards, history, and the PIN on this device. Because data syncs through iCloud, the wipe propagates to your other devices too.
 
 ## Still stuck?
 
