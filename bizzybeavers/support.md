@@ -46,7 +46,7 @@ First sync after install can take a minute; after that it's near real-time. If a
 
 ### I forgot my parent PIN
 
-On the PIN screen, if **Face ID / Touch ID** is set up, tap **Unlock with Face ID / Touch ID** (it also tries automatically when you open parent mode). Once you're in, set a fresh PIN from **Settings → Change parent PIN**. If you don't have biometrics enabled and can't recall your PIN, email us and we'll help you recover access.
+On the PIN screen you can unlock with **Face ID, Touch ID, or your device passcode** — the button appears automatically whenever any of those is set up (it even tries on its own when you open parent mode). Use it to get in, then set a fresh PIN from **Settings → Change parent PIN**. Your PIN is stored only on your device as a secure hash and is never sent to us, so we can't reset it remotely — make sure your device has a passcode or Face ID/Touch ID set up so you always have a way back in.
 
 ### How do I back up or restore my data?
 
