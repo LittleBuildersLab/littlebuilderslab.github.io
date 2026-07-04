@@ -12,5 +12,5 @@ A tiny indie app studio. We build apps alongside our 7-year-old co-builder — e
 We're not a company. We're a parent + kid pair who like to build things together. Apps we ship are about real problems we actually want solved in our own house. If they help yours too, great.
 
 ## Contact
-
+Reach out to us if you have any feedback you want to share.
 [littlebuilders.bizzybeavers@gmail.com](mailto:littlebuilders.bizzybeavers@gmail.com) · [GitHub](https://github.com/LittleBuildersLab)
